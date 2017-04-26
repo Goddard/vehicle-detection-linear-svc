@@ -10,7 +10,7 @@ The goals / steps of this project are the following:
 * Run your pipeline on a video stream (start with the test_video.mp4 and later implement on full project_video.mp4) and create a heat map of recurring detections frame by frame to reject outliers and follow detected vehicles.
 * Estimate a bounding box for vehicles detected.
 
-If you want to see all the functions used for this project please view the python notebook.  I deleted them from this README.md file to prevent overrun and keep this as concise as possible.  Other then those functions though this file is the same as the notebook. 
+If you want to see all the functions used for this project please view the python notebook.  I deleted them from this README.md file to prevent overrun and keep this as concise as possible.  Other then those functions though this file is the same as the notebook.
 
 
 ```python
@@ -233,7 +233,7 @@ plot_figures(figures, 2, 2)
 ![png](output_9_0.png)
 
 
-Here we extra features for car and non-car images and then train our classifier.
+Here we extract features for car and non-car images and then train our classifier.
 
 To train the classifier I used Linear SVC.  
 
